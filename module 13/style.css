@@ -1,0 +1,50 @@
+ul{
+    list-style-type: square;
+}
+ul{
+    list-style-image: url("images/maths.png");
+}
+
+ul{
+    /*list-style-image: url("images/maths.png");*/
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid grey;
+}
+
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid grey;
+}
+
+ol{
+    background: #e68983;
+    padding: 15px;
+}
+
+ol li{
+    padding: 10px;
+    margin-left: 30px;
+    background: #e6bdba;
+}
+td,th{
+    border: 1px solid black;
+    padding: 15px;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    background-color:#e68983 ;
+}
+td{
+    background: #e6bdba ;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #e68983;
+    overflow: scroll;
+}
+
+    
