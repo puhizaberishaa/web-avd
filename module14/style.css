@@ -1,0 +1,65 @@
+article p{
+    background-color: antiquewhite;
+    color: black;
+    padding: 20px;
+}
+article > p{
+    background-color: brown;
+}
+article ~ p{
+    background-color: blueviolet;
+    color: bisque;
+    padding: 20px;
+}
+article + p{
+   background-color: aquamarine;
+   color: blue;
+   padding: 20px;
+}
+
+h3:first-child{
+    color: aquamarine;
+    color: azure;
+}
+
+input:in-range{
+    border: 3px solid rebeccapurple;
+}
+input:out-of-range{
+    border: 3px solid green;
+}
+input:required{
+    background-color: beige;
+    color: black;
+}
+input:focus{
+    background-color: black;
+}
+span:first-of-type{
+    background-color: bisque;
+    color: blueviolet;
+    padding: 10px;
+}
+input:valid{
+    border: 3px solid green;
+}
+input:invalid{
+    border: 2px solid red;
+}
+
+p::first-line{
+    color: blue;
+}
+p:first-letter{
+    font-size: 40px;
+}
+h4:before{
+    content: url(images/warning.png);
+}
+::selection{
+    color: aqua;
+    background-color: blueviolet;
+}
+div:{
+opacity: 0.5;
+}
