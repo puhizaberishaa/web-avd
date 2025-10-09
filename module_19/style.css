@@ -1,0 +1,107 @@
+.container{
+    background-color: #251b59;
+    display: flex;
+    flex-direction: row;
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column-reverse;*/
+    /*flex-direction: column*/
+    flex-wrap: wrap;
+    /*flex-wrap: nowrap;*/
+    /*flex-wrap: wrap-reverse;*/
+
+}
+.container div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-family: 35px;
+    width: 30%;
+}
+/*
+.container div:nth-child(1){
+    order: 2;
+}
+.container div:nth-child(2){
+    order: 3;
+}
+.container div:nth-child(3){
+    order: 0;
+}
+.container div:nth-child(4){
+    order: 1;
+}
+*/
+.container div:nth-child(1){
+    flex-grow: 4;
+}
+
+.container2{
+    background-color: #251b59;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: flex-start;*/
+    /*justify-content: center;*/
+    /*justify-content: flex-end;*/
+    /*justify-content: space-between;*/
+    justify-content: flex-end;
+    height: 200px;
+}
+.container2 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    height: 50px;
+}
+.container2 div:nth-child(2){
+    align-self: flex-end;
+}
+.container3{
+    display: flex;
+    background-color: #7a315c;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 200px;
+    align-items: center;
+}
+.container3 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    
+}
+.container3 div:nth-child(1){
+    height: 20px;
+}
+.container3 div:nth-child(2){
+    height: 100px;
+}
+.container3 div:nth-child(3){
+    height: 50px;
+}
+.container3 div:nth-child(4){
+    height: 130px;
+} 
+.container4{
+display: flex;
+background-color: #251b59;
+flex-direction: row;
+justify-content: flex-start;
+height: 400px;
+align-content: flex-start;
+/*align content:flex-end;*/
+/*align content:center;*/
+/*align content:space-between;*/
+/*align content:space-around;*/
+/*align content:stretch;*/
+flex-wrap: wrap;
+}
+.container4 div{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 400px;
+    height: 200px;
+}
