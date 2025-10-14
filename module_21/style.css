@@ -1,0 +1,41 @@
+@media(min-width: 600px){
+   body{
+    background-color: pink;
+    color: white;
+   }
+}
+p{
+    column-count: 2;
+}
+
+@media all and (max-width: 600px){
+    body{
+        background-color: blueviolet;
+        color: black;
+    }
+}
+@media all and(orientation: landscape){
+    h1{
+        font-size: 80px;
+    }
+}
+
+@media all and(orientation: portrait){
+    h1{
+        font-size: 30px;
+    }
+}
+h1{
+    border:2px solid rgb(255, 255, 255);
+    padding: 20px;
+}
+@media(min-width: 60px) and (max-width: 900px){
+    img{
+        display: none;
+    }
+}
+@media print{
+    body{
+        background-color: transparent;
+    }
+}
