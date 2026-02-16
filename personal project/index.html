@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Project</title>
+</head>
+<body>
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Management System</title>
+
+&lt;link rel="stylesheet" href="style.css"&gt;
+&lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap" rel="stylesheet"&gt;
+</head>
+<body>
+
+<header class="navbar">
+<div class="logo">EduManage</div>
+<nav>
+<ul>
+<li><a href="#">Dashboard</a></li>
+<li><a href="#">Students</a></li>
+<li><a href="#">Teachers</a></li>
+<li><a href="#">Grades</a></li>
+<li><a href="#">Schedule</a></li>
+<li><a href="#">Announcements</a></li>
+</ul>
+</nav>
+<button class="logout-btn">Logout</button>
+</header>
+
+<main class="container">
+
+&lt;aside class="sidebar"&gt;
+    &lt;h3&gt;Menu&lt;/h3&gt;
+    &lt;ul&gt;
+        &lt;li&gt;📊 Dashboard&lt;/li&gt;
+        &lt;li&gt;👨‍🎓 Students&lt;/li&gt;
+        &lt;li&gt;👩‍🏫 Teachers&lt;/li&gt;
+        &lt;li&gt;📝 Grades&lt;/li&gt;
+        &lt;li&gt;📅 Schedule&lt;/li&gt;
+        &lt;li&gt;📢 Announcements&lt;/li&gt;
+        &lt;li&gt;⚙️ Settings&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;section class="content"&gt;
+    &lt;h1&gt;School Dashboard&lt;/h1&gt;
+
+    &lt;div class="cards"&gt;
+        &lt;div class="card"&gt;
+            &lt;h2&gt;0&lt;/h2&gt;
+            &lt;p&gt;Total Students&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="card"&gt;
+            &lt;h2&gt;35&lt;/h2&gt;
+            &lt;p&gt;Teachers&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="card"&gt;
+            &lt;h2&gt;18&lt;/h2&gt;
+            &lt;p&gt;Subjects&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="card"&gt;
+            &lt;h2&gt;0&lt;/h2&gt;
+            &lt;p&gt;Announcements&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div id="pages"&gt;
+
+        &lt;div class="page" id="dashboard"&gt;
+            &lt;p&gt;Welcome to the school management system.&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="page hidden" id="students"&gt;
+            &lt;h2&gt;Students&lt;/h2&gt;
+            &lt;table&gt;
+                &lt;thead&gt;
+                    &lt;tr&gt;
+                        &lt;th&gt;Name&lt;/th&gt;
+                        &lt;th&gt;Class&lt;/th&gt;
+                        &lt;th&gt;Average&lt;/th&gt;
+                        &lt;th&gt;Status&lt;/th&gt;
+                    &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody&gt;&lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+
+        &lt;div class="page hidden" id="teachers"&gt;
+            &lt;h2&gt;Teachers&lt;/h2&gt;
+            &lt;p&gt;Teachers management page&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="page hidden" id="grades"&gt;
+            &lt;h2&gt;Grades&lt;/h2&gt;
+            &lt;p&gt;Grades overview&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="page hidden" id="schedule"&gt;
+            &lt;h2&gt;Schedule&lt;/h2&gt;
+            &lt;p&gt;School schedule&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;!-- SHTESË: VIEW ANNOUNCEMENTS --&gt;
+        &lt;div class="page hidden" id="announcements"&gt;
+            &lt;h2&gt;Announcements&lt;/h2&gt;
+            &lt;div id="announcementsContainer"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    
+    &lt;div class="form-section"&gt;
+        &lt;h2&gt;Add Announcement&lt;/h2&gt;
+
+        &lt;form id="announcementForm"&gt;
+            &lt;div class="form-group"&gt;
+                &lt;label&gt;Announcement Title&lt;/label&gt;
+                &lt;input type="text" placeholder="Enter title" required&gt;
+            &lt;/div&gt;
+
+            &lt;div class="form-group"&gt;
+                &lt;label&gt;Announcement Content&lt;/label&gt;
+                &lt;textarea placeholder="Write announcement text..." required&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+
+            &lt;button type="submit"&gt;Publish&lt;/button&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+
+&lt;/section&gt;
+</main>
+
+<footer class="footer">
+<p>© 2026 EduManage | School Management System</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
